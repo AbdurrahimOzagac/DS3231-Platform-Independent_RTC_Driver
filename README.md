@@ -80,6 +80,9 @@ Write two files matching the naming convention `ds3231_port_<platform>.h/.c`. Ea
 
 All time fields are stored on-chip as BCD; the driver converts to/from decimal transparently.
 
+Datasheet:
+https://www.analog.com/media/en/technical-documentation/data-sheets/ds3231.pdf
+
 ## Roadmap
 
 - [ ] Alarm 1 / Alarm 2 support
